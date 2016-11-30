@@ -13,6 +13,8 @@ var princess = new Princess();
 var rat = new Rat();
 
 console.log( "The story begins....");
+console.log();
+console.log();
 
 console.log("the rat touches the cheese:");
 rat.touch( cheese );
@@ -37,6 +39,7 @@ console.log();
 console.log( "hercules saves the princess:");
 hercules.save( princess );
 console.log();
+console.log( "Hercules' health = ", hercules.health );
 
 console.log( "villain puts on disguise:");
 villain.donDisguise();
@@ -44,4 +47,8 @@ console.log();
 
 console.log( "villain hurts hercules");
 hercules.save( villain );
+console.log( "Hercules' health = ", hercules.health );
 console.log();
+
+console.log();
+console.log("THE END");
